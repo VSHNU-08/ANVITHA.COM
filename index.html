@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANVITHAAA❤️</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffcccc;
+  }
+  #header {
+    background-color: #ff6699;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    transform: rotate(45deg);
+    animation: float 5s infinite;
+    opacity: 0.8;
+  }
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  .heart::before {
+    top: -10px;
+    left: 0;
+  }
+  .heart::after {
+    top: 0;
+    left: -10px;
+  }
+  @keyframes float {
+    0% {
+      transform: translateY(0) rotate(45deg);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(-200px) rotate(45deg);
+      opacity: 0;
+    }
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: white;
+    color: #ff6699;
+    border: 2px solid #ff6699;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    transition: background-color 0.3s, transform 0.2s, width 0.3s, height 0.3s, color 0.3s;
+  }
+  button:hover {
+    background-color: red;
+    transform: translateY(-2px) scale(1.1);
+    color: white;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #leftDiv {
+    width: 30%;
+    padding: 20px;
+    background-color: #ff6699;
+    text-align: center;
+  }
+  #rightDiv {
+    width: 70%;
+    padding: 20px;
+    background-color: #ff6699;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  .flyaway {
+    animation: fly 2s ease-in-out forwards;
+    background-color: transparent;
+    color: red;
+    border: none;
+    position: relative;
+  }
+  .flyaway::before {
+    content: "❤";
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  @keyframes fly {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-100px) scale(0.5);
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="header">
+  <h1>HAPPIEST BIRTHDAY TO ANVITHAAA</h1>
+  <div id="buttons">
+    <button onclick="showContent('2.jpg', 'No matter how your life is—bright 🌞 or dark 🌑—I will always be your shadow 🌫️. I might not be visible, but I am always there for you. Never leave the SMILE 😁 on your face, seeing that is a BOON 🎁 to the people around you.', 'Yemito clip11.mp3')">H</button>
+    <button onclick="showContent('3.2.jpg', 'If your earth revolving around life I will be your sweet moon taking you through the night -- As fun as flying a kite 🪁.Get your seat belt tight This aint gonna be lite.Taking through sorrow days like a flight 🛫 .Dark days like Day light ☀ If your in fright I will be your knight fighting all night never doubt really, i might', 'inthandham  clip1.mp3')">A</button>
+    <button onclick="showContent('3.jpg', 'Full Form of Friend is Foundation of Trust, Reciprocal Respect, Interconnectedness, Empathy and Empowerment, Non-judgmental Nature, Devotion and Dedication.i will never ever break this 6 promises and if you will ever known I have broke that day i will be with GOD.', 'Gaali clip1.mp3')">P</button>
+    <button onclick="showContent('4.jpg', 'Till you reach I will be along with you to run 🏃‍♂️ Lets enjoy this life together having some fun 🎉 Ever you doubt me point a gun 🔫 One day you will be realizing (recalling) sitting under a fan 🌀 with juice full of can 🥤 There used to be a guy who ran 🏃‍♂️.', 'Atu Itu clip1.mp3')">P</button>
+    <button onclick="showContent('5.jpg', 'I might not be your 5 star ⭐ but when you are with me you will be in star ⭐ soaring through sky 🌌 looking very very high 🌠 There is my lap for you to cry 😢 I promise I never gonna lie I am here to share my love till I die🪦.', 'Hello Ramm clip2.mp3')">Y</button>
+    <button onclick="showContent('6.jpg', 'There was a guy selling orginal diamond💎 on road no one believed him.same diamond was in showroom with lot more price,people admired it.value comes from the place you stay in and my heart always has a place for you to add value.', 'Inthandham clip22.mp3')">B</button>
+    <button onclick="showContent('7.jpg', 'I always wanted to give you a gift 🎁 but when you see yourself with my eyes 👀 then you realize you yourself are a gift 🎁 to this world 🌍.Each Emotion you have is an Element that even GOD cant recreate unless you are born again.', 'atu itu clip33.mp3')">I</button>
+    <button onclick="showContent('8.jpg', 'When you are lost 🌌, I will be your satellite phone 📡 always tracking you with the signal called love ❤️ and also share feelings of fear 😨, contempt 😒, disgust 😖, sadness 😢, anger 😡, happiness 😄, and surprise 😲 to have a ride of life with the one who is always special, just like you do 🌟.' ,'Yemito clip3.mp3')">R</button>
+    <button onclick="showContent('9.jpg', 'If anyone even tries to corrupt your life 🛡️, I will be your password 🔐 ensuring your security.I will be the author for your life writing miracles with eyes.Filling each chapter with love❤️ and emotion.', 'Saripovu clip1.mp3')">T</button>
+    <button onclick="showContent('10.jpg', 'I will be your mirror 🪞 you could always talk to without any hesitation. I will be your image around the mirror 🖼️ you could always talk to like you talk to yourself, without the fear of the void (empty). ', 'atu itu clip2.mp3')">H</button>
+    <button onclick="showContent('11.jpg', 'No matter how long you drive 🚗, I will be your Stepney 🛞 always hoping for your safety (to back you up to your harbor ⛵). I will be your petrol ⛽ boosting you to your success 🏆. I will be your steering 🛞 which takes you to the right destination 📍 no matter how the ups and downs are.', 'Arare Arare clip1.mp3')">D</button>
+    <button onclick="showContent('12.jpg', 'At your hardest times never think that you are alone 🌧️ or feel that no one is there for you to share your sorrow 😔. Never forget I am always waiting for your reply 📩, whether it might be good 😊, bad 😞, or worst 😫. I am here till you reach your happiness 🌈 without any thirst 🥤. For that, we need to talk first 😅.', 'Evare Final clip.mp3')">A</button>
+    <button onclick="showContent('13.jpg', 'I might not have power to control time in a watch ⌚ but I will be there to watch you 👀 no matter what time 🕰️.', 'Inthandham clip4.mp3')">Y</button>
+    <button onclick="showContent('14.jpg', 'TRUST full form is truthful, respect, understanding, safety, transparency. Trust cannot be ensured unless you talk to a person. I will always be TRUSTFUL to you no matter what 💬🤝.', 'Prema clip1.mp3')">T</button>
+    <button onclick="showContent('15.jpg', 'My Life is a chess board , I have all the pieces except one, I think you are my missing QUEEN👑.', 'Hello Ramm clip1.mp3')">O</button>
+    <button onclick="showContent('16.jpg', 'I will be your garage 🚗🏠 where you can ever rest or even alter yourself, regardless of the fear of being judged or crushed.NEE PICTURE EE PILLODIKI CHUPIYAKU MALLI NAAKU ADHEY BUTTA BOMMA KAVALI ANI EDUSTHADU😁.', 'Hello Ramm clip3.mp3')">Y</button>
+    <button onclick="showContent('17.jpg', 'I would like to give a very small advice 💡: interest does not come in the context of gender 🚻, it comes with the context of the person you are speaking to. How well you know them and how much they love you ❤️ is when you have interest in speaking with them. At least give it a try. People who you are interested in may not stay 🚶, but people who have love for you always stay 🫂. And I am here to stay 🌟.', 'Hello Ramm clip4.mp3')">O</button>
+    <button onclick="showContent('18.jpg', 'Each button you pressed disappeared just like people who would turn around after their use or cheat.but iam here just to stay with you till my last breath.atleast we could be friends.waiting for your reply eternally.', 'Yemito clip4.mp3')">U</button>
+  </div>
+</div>
+
+<div id="container">
+  <div id="leftDiv">
+    <h2>18 YEARS AGO A MIRACLE HAPPENED ON THIS DAY</h2>
+    <p>HAPPY SWEET 18(EIGTEETHHHHHHH).here are the 18 things i always wanted to tell you. These are written by my hand listening to my heart.Choose a letter above which is a button to listen to music, and read a heartwarming message below each image❤️</p>
+  </div>
+  <div id="rightDiv">
+    <img id="displayPhoto" src="initial.jpg" alt="Selected Photo">
+    <audio id="audio" style="display: none;"></audio>
+    <p id="contentText"></p>
+  </div>
+</div>
+
+<script>
+  function showContent(photoSrc, text, audioSrc) {
+    var displayPhoto = document.getElementById('displayPhoto');
+    var audio = document.getElementById('audio');
+    var contentText = document.getElementById('contentText');
+
+    // Stop any currently playing audio
+    audio.pause();
+    audio.currentTime = 0;
+
+    // Set new content
+    displayPhoto.src = photoSrc;
+    contentText.innerText = text;
+
+    // Play new audio
+    audio.src = audioSrc;
+    audio.style.display = 'block';
+    audio.play();
+  }
+
+  // Add flyaway effect on button click
+  document.querySelectorAll('button').forEach(function(button) {
+    button.addEventListener('click', function() {
+      button.classList.add('flyaway');
+      setTimeout(function() {
+        button.style.display = 'none';
+      }, 2000);
+    });
+  });
+
+  // Create floating hearts
+  function createHeart() {
+    const heart = document.createElement('div');
+    heart.className = 'heart';
+    heart.style.left = Math.random() * 100 + 'vw';
+    heart.style.animationDuration = Math.random() * 2 + 3 + 's';
+    document.getElementById('header').appendChild(heart);
+    setTimeout(() => {
+      heart.remove();
+    }, 5000);
+  }
+
+  setInterval(createHeart, 300);
+</script>
+
+</body>
+</html>
